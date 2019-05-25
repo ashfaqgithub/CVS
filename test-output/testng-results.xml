@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82250" started-at="2019-05-25T22:49:53Z" finished-at="2019-05-25T22:51:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82250" started-at="2019-05-25T22:49:53Z" finished-at="2019-05-25T22:51:15Z">
+      <class name="test.CreateAccount">
+        <test-method status="PASS" signature="beforeTestStart()[pri:0, instance:test.CreateAccount@6e3c1e69]" name="beforeTestStart" is-config="true" duration-ms="6955" started-at="2019-05-25T18:49:53Z" finished-at="2019-05-25T18:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestStart -->
+        <test-method status="PASS" signature="CreateAccountFunction()[pri:0, instance:test.CreateAccount@6e3c1e69]" name="CreateAccountFunction" duration-ms="72961" started-at="2019-05-25T18:50:00Z" finished-at="2019-05-25T18:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccountFunction -->
+        <test-method status="PASS" signature="closewindow()[pri:0, instance:test.CreateAccount@6e3c1e69]" name="closewindow" is-config="true" duration-ms="2318" started-at="2019-05-25T18:51:13Z" finished-at="2019-05-25T18:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- test.CreateAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
