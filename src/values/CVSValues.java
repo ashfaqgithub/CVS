@@ -22,4 +22,16 @@ public class CVSValues {
 		public String DOBD = "01";
 		public String DOBY = "1985";
 			
+		//Sign In
+		public String SignInEmail = "faisal.nsu@gmail.com";
+		public String SignInPass = "TalentTek123";
+		
+
+
+
+
+
+
 }
+
+

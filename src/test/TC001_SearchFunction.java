@@ -6,7 +6,7 @@ import base.Config;
 import locators.CVSLocators;
 import values.CVSValues;
 
-public class SearchFunction extends Config {
+public class TC001_SearchFunction extends Config {
 
 	CVSLocators CVSL = new CVSLocators();
 	CVSValues CVSV = new CVSValues();

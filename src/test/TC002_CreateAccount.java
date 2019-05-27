@@ -9,7 +9,7 @@ import base.Config;
 import locators.CVSLocators;
 import values.CVSValues;
 
-public class CreateAccount extends Config {
+public class TC002_CreateAccount extends Config {
 	
 	CVSLocators CVSL = new CVSLocators();
 	CVSValues CVSV = new CVSValues();

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\ashfa\AppData\Local\Temp\testng-eclipse-938200959\testng-customsuite.xml</span>
+                    <span>C:\Users\ashfa\AppData\Local\Temp\testng-eclipse--555578603\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.CreateAccount" hash-for-method="CreateAccountFunction">CreateAccountFunction</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test.TC004_BuySomething" hash-for-method="SignIn">SignIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,40 +120,17 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">test.CreateAccount</span>
+              <span class="class-name">test.TC004_BuySomething</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CreateAccountFunction">
-                  </a> <!-- CreateAccountFunction -->
-                  <span class="method-name">CreateAccountFunction</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;button&quot; id=&quot;continueAccount&quot; ng-class=&quot;{&apos;disabled-button&apos;: basicInfoForm.$invalid || profileExists || profileCheck || !digitsMatch || !match || showErrorConfirmPassword || !secAnsGood || passwordValidationFailure,
-						&apos;enabled-button&apos;: basicInfoForm.$valid &amp;amp;&amp;amp; !profileExists}&quot; ng-click=&quot;contProfileForm(basicInfoFormDetail)&quot; ng-hide=&quot;blur&quot; ng-disabled=&quot;basicInfoForm.$invalid || profileExists || profileCheck || !digitsMatch || !match || showErrorConfirmPassword || !secAnsGood || passwordValidationFailure&quot; class=&quot;ng-binding disabled-button&quot; disabled=&quot;disabled&quot; style=&quot;&quot;&gt;...&lt;/button&gt; is not clickable at point (759, 688). Other element would receive the click: &lt;div class=&quot;col-xs-12&quot; ng-hide=&quot;!displayFormFields(&apos;continueButton&apos;)&quot; style=&quot;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T19:05:14.666Z&apos;
-System info: host: &apos;LAPTOP-EBJCUPO7&apos;, ip: &apos;192.168.1.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\ashfa\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65124}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
-Session ID: 1eff3cffb4ee37349d527b8bed543539
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at utils.WebDriverFunctions.clickByXpath(WebDriverFunctions.java:35)
-	at test.CreateAccount.CreateAccountFunction(CreateAccount.java:39)
+                  <a name="SignIn">
+                  </a> <!-- SignIn -->
+                  <span class="method-name">SignIn</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at utils.WebDriverFunctions.typeByXpath(WebDriverFunctions.java:28)
+	at test.TC004_BuySomething.SignIn(TC004_BuySomething.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -187,7 +164,7 @@ Session ID: 1eff3cffb4ee37349d527b8bed543539
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ashfa\AppData\Local\Temp\testng-eclipse-938200959\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ashfa\AppData\Local\Temp\testng-eclipse--555578603\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,18 +173,18 @@ Session ID: 1eff3cffb4ee37349d527b8bed543539
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.CreateAccount&quot;/&gt;
+      &lt;class name=&quot;test.TC004_BuySomething&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
   &lt;test name=&quot;Default test(failed)&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.CreateAccount&quot;&gt;
+      &lt;class name=&quot;test.TC004_BuySomething&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;CreateAccountFunction&quot;/&gt;
+          &lt;include name=&quot;SignIn&quot;/&gt;
           &lt;include name=&quot;beforeTestStart&quot;/&gt;
           &lt;include name=&quot;closewindow&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- test.CreateAccount --&gt;
+      &lt;/class&gt; &lt;!-- test.TC004_BuySomething --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -252,14 +229,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'CreateAccountFunction')
-data.setCell(0, 2, 'test.CreateAccount')
-data.setCell(0, 3, 8245);
+data.setCell(0, 1, 'SignIn')
+data.setCell(0, 2, 'test.TC004_BuySomething')
+data.setCell(0, 3, 10070);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -285,7 +262,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.CreateAccount</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.TC004_BuySomething</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTestStart</span>
                 <span class="method-start">0 ms</span>
@@ -293,12 +270,14 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">CreateAccountFunction</span>
-                <span class="method-start">5706 ms</span>
+                <span class="method-name">SignIn</span>
+                <span class="method-start">5077 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">closewindow</span>
-                <span class="method-start">13955 ms</span>
+                <span class="method-start">15150 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
